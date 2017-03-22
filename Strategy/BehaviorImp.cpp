@@ -16,8 +16,8 @@
 int Behavior_A::Work(void)
 {
    // TODO : implement
-	GRS_USEPRINTF();
-	GRS_PRINTF(_T("Behavior A\n"));
+	COMMON_USEPRINTF();
+	COMMON_PRINTF(_T("Behavior A\n"));
 
 	return 0;
 }
@@ -25,8 +25,8 @@ int Behavior_A::Work(void)
 int Behavior_B::Work(void)
 {
 	// TODO : implement
-	GRS_USEPRINTF();
-	GRS_PRINTF(_T("Behavior B\n"));
+	COMMON_USEPRINTF();
+	COMMON_PRINTF(_T("Behavior B\n"));
 
 	return 0;
 }
@@ -34,8 +34,8 @@ int Behavior_B::Work(void)
 int Behavior_C::Work(void)
 {
 	// TODO : implement
-	GRS_USEPRINTF();
-	GRS_PRINTF(_T("Behavior C\n"));
+	COMMON_USEPRINTF();
+	COMMON_PRINTF(_T("Behavior C\n"));
 
 	return 0;
 }

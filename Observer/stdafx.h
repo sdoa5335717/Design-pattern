@@ -9,7 +9,10 @@
 
 #include <stdio.h>
 #include <tchar.h>
-
+#include "CommonFile.h"
+#include <vector>
+#include <algorithm>
+using namespace std;
 
 
 // TODO: reference additional headers your program requires here
